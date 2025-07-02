@@ -1,0 +1,33 @@
+body {
+  font-family: "MS PGothic", sans-serif;
+  background-color: #f0fff0;
+  margin: 0;
+  padding: 20px;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.board-list {
+  display: flex;
+  gap: 1em;
+}
+.welcome-container {
+  position: relative;
+  text-align: center;
+}
+.welcome-image {
+  width: 100%;
+  max-width: 800px;
+}
+.welcome-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+}

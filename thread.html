@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>スレッド表示</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="topbar">
+    <div class="board-list" id="boardList"></div>
+    <button onclick="logout()">ログアウト</button>
+  </div>
+  <h1 id="threadTitle">スレッド</h1>
+  <div id="commentList"></div>
+  <h2>コメント</h2>
+  <input id="name" placeholder="名前（省略可）">
+  <textarea id="content" placeholder="コメントを入力"></textarea>
+  <button onclick="submitComment()">書き込む</button>
+</body>
+</html>
